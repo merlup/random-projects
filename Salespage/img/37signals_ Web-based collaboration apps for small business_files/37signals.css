@@ -1,0 +1,38 @@
+* {
+	margin:0;
+	padding:0;	
+}
+
+a {
+	text-decoration: none;
+	color: #369;
+}
+
+section {	
+	margin: 30px auto;
+	width: 825px;
+	display: block;
+}
+
+hr {
+	background: white url('img-hr.png') no-repeat scroll 50% 50%;
+	clear: both;
+	border: 0;
+	color: transparent;
+	height: 12px;
+}
+
+sup {
+	color: #999;
+	font-weight: normal;
+	font-size: 11px;
+}
+
+@font-face {
+	font-family: CrimsonSemiBold;
+	src: url('fonts/Crimson-Semibold.otf');
+}
+
+@font-face {
+
+}

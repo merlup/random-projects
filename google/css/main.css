@@ -1,0 +1,167 @@
+html,
+body {
+	margin: 0;
+	height: 100%;
+	background: none repeat scroll 0 0 #fff;
+	color: #222;
+}
+* {
+	font-size: 12px;
+}
+
+a {
+	color:#222;
+	text-decoration: none;
+}
+
+a:hover {
+	color:#222;
+	text-decoration: underline;
+}
+
+a.button:hover {
+	text-decoration: none;
+}
+
+ul#nav {
+	float:right;
+	margin-right: 25px;
+}
+
+ul#nav li{
+	list-style: none;
+	display: inline-block;
+	text-align: right;
+	padding: 1em 10px 0 0;
+	vertical-align: bottom;
+	margin: 5px 5px 0 0;
+	font-size: 13px
+}
+
+.fa {
+	font-size: 20px;
+	vertical-align: top;
+	opacity: 0.7;
+	cursor: default;
+}
+
+.fa:hover {
+	opacity: 1.0;
+}
+
+span#share {
+	background-color: #f2f2f2;
+	padding: 7px 15px;
+	cursor: default
+}
+
+span#share:hover {
+	background-color: #E1E1E1;
+}
+
+img.profile_img {
+	border-radius: 25px;
+	height: 32px;
+	margin: -5px;
+	width: 32px;
+}
+
+.search {
+	position: absolute;
+	margin-top: 50px;
+	width: 100%;
+}
+
+.search img {
+	padding: 142px 0 24px 0;
+	display: block;
+	margin: 0 auto;
+}
+
+input.search_buttons {
+	width: 40%;
+	margin-left: 30%;
+	border: 1px solid #d9d9d9;
+	font-size: 17;
+}
+
+input.search_buttons:focus {
+	border-color: #4387fd;
+}
+
+ul.buttons {
+	text-align: center;
+	padding-left: 0;
+}
+
+ul.buttons li {
+	background-color: #f5f5f5;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 2px;
+	color: #666;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 27px;
+	margin: 17px 6px;
+	padding: 0 12px;
+	display: inline-block;
+}
+
+ul.buttons li:hover {
+	background-color: #f8f8f8;
+	border: 1px solid #c6c6c6;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	color: #333;
+	cursor: default;
+}
+
+.bottom {
+	bottom: 0 !important;
+	position: absolute;
+	width: 100%;
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+}
+
+ul#left {
+	float: left;
+	padding-left: 20px;
+	margin-bottom: 0;
+}
+
+ul#left {
+	float: left;
+	padding-left: 20px;
+	margin-bottom: 0;
+}
+
+ul#right {
+	float: right;
+	padding-right: 10px;
+	margin-bottom: 0px;
+}
+
+ul#left li,
+ul#right li{
+	list-style: none;
+	display: inline;
+	line-height: 40px;
+}
+
+ul#right li a:first-child {
+	padding-right:8px;
+}
+
+ul#left li:nth-child(2),
+ul#left li:nth-child(3) {
+	margin-left:7px;
+}
+
+ul#left li a,
+ul#right li a {
+	color: #666;
+    margin: 2px 10px 0;
+    letter-spacing: 0.1px;
+    font-size: 13px;
+}
+
